@@ -29,7 +29,7 @@ section .col2  ul {
 section form {
     display:flex;
     flex-direction: column;
-
+    border: 1px solid blue;
 }
 section form *{
     margin:15px 0 ;
