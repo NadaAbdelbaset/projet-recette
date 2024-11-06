@@ -9,3 +9,16 @@ body{
 ul,li{
     list-style: none;
 }
+section{
+    width: 700px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+
+}
+section.col1{
+    width: 48%; 
+}
+section.col2{
+    width: 48%;
+}
