@@ -1,4 +1,4 @@
-h1, P, figure ,ul,li{ 
+h1, P, figure, ul, li{ 
     margin :0;
     padding :0;
     
@@ -6,9 +6,8 @@ h1, P, figure ,ul,li{
 body{
     font-family: sans-serif;
 }
-ul,li{
-    list-style: none;
-}
+
+
 section{
     width: 700px;
     margin: 0 auto;
@@ -16,9 +15,14 @@ section{
     justify-content: space-between;
 
 }
-section.col1{
+section .col1{
     width: 48%; 
 }
-section.col2{
+section .col2{
     width: 48%;
+}
+.col2 ul, .col2 ul li {
+    display: inline;
+    margin: 0;
+    padding: 0;
 }
