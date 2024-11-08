@@ -60,7 +60,7 @@ section form button{
     cursor: pointer;
 }
 .container{
-    width: 100%;
+    width: 700px;
     margin: 0 auto;
 
 }
@@ -72,4 +72,23 @@ header ul{
 header ul li {
     margin-left: 20px;
     font-size: 1.6rem;
+}
+.gallerie{
+    margin: 20px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+.gallerie article{
+    width: 32%;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.gallerie article img{
+    width: 100%;
+}
+.gallerie article h2{
+    flex:1;
 }
