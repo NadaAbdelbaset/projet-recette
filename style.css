@@ -126,3 +126,14 @@ header ul li {
     width: 700px;
     margin: 0 auto;
 }
+.newsletter{
+    display: flex;
+    flex-direction: row;
+}
+.newsletter input{
+    width: 300px;
+}
+.newsletter{
+    margin-left: 20px;
+    padding: 8px 20px;
+}
