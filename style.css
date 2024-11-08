@@ -92,3 +92,32 @@ header ul li {
 .gallerie article h2{
     flex:1;
 }
+
+.contact h1{
+    text-align: center;
+    color: rgb(5, 56, 56);
+}
+.contact form {
+    display: flex;
+    flex-direction: column;
+}
+.contact form  {
+    margin: 15px 0;
+    padding: 8px;
+}
+
+.contact form {
+    margin: 20px 0;
+    padding: 10px 5px;
+    border: 1px solid rgb(94, 94, 137);
+}
+
+.contact form textarea{
+    height: 80px;
+}
+
+.contact form button{
+    background:rgb(91, 56, 126);
+    color: white;
+    cursor: pointer;
+}

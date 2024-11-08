@@ -7,18 +7,35 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <header>
+        <ul>
+            <li><a href="index.html">Accueuil</a></li>
+            <li><a href="recette.html">Recette</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </header>
+   <div class="contact">
     <h1>Nous contacter</h1>
     <form action="">
-        <input type="text" id="prénom" name="prénom">
-        <input type="text" id="nom" name="nom">
+        <input type="prenom" id="prénom" name="prénom" placeholder="votre prénom">
+        <br>
+        <input type="nom" id="nom" name="nom" placeholder="votre nom">
+        <br>
         <input type="email" placeholder="votre@mail.fr">
+        <br>
+        <div>
         <select id="service" name="service" required>
             <option value="informatique" selected>Informatique</option>
             <option value="commercial">Commercial</option>
         </select>
-        <textarea name="" id="commentaire" placeholder="votre commentaire"></textarea>
 
+        
+        </div>
+        <textarea name="" id="commentaire" placeholder="votre commentaire"></textarea>
+        <br>
         <button>Envoyer</button>
     </form>
+   </div>
+   
 </body>
 </html>
