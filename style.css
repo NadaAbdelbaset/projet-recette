@@ -1,47 +1,61 @@
-h1, P, figure, ul, li{ 
-    margin :0;
-    padding :0;
-    
+/*reset*/
+
+h1, p, figure, ul, li{
+    margin: 0;
+    padding: 0;
 }
+
 body{
     font-family: sans-serif;
 }
 
+ul, li {
+    list-style: none;
+}
 
-section{
+section {
     width: 700px;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
+}
 
-}
-section .col1{
-    width: 48%; 
-}
-section .col2{
+section .col1 {
     width: 48%;
 }
-section .col2  ul {
-    display: flex;
-    margin: 10px 0;
-    justify-content: space-between;
+
+section .col2 {
+    width: 48%;
 }
-section form {
-    display:flex;
+
+section .col2 ul {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0;
+}
+
+form {
+    display: flex;
     flex-direction: column;
+}
+
+section form * {
+    margin: 15px 0;
+    padding: 8px;
+}
+
+section form *{
+    margin: 15px 0;
+    padding: 8px 4px;
     border: 1px solid blue;
 }
-section form *{
-    margin:15px 0 ;
-    padding: 8px 4px;
 
-}
 section form textarea{
     height: 80px;
 }
+
 section form button{
     background: blue;
     color: white;
     cursor: pointer;
-    
 }
