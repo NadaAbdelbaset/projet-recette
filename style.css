@@ -1,15 +1,20 @@
 /*reset*/
 
-h1, p, figure, ul, li{
+h1,
+p,
+figure,
+ul,
+li {
     margin: 0;
     padding: 0;
 }
 
-body{
+body {
     font-family: sans-serif;
 }
 
-ul, li {
+ul,
+li {
     list-style: none;
 }
 
@@ -44,65 +49,74 @@ section form * {
     padding: 8px;
 }
 
-section form *{
+section form * {
     margin: 15px 0;
     padding: 8px 4px;
     border: 1px solid blue;
 }
 
-section form textarea{
+section form textarea {
     height: 80px;
 }
 
-section form button{
+section form button {
     background: blue;
     color: white;
     cursor: pointer;
 }
-.container{
+
+.container {
     width: 700px;
     margin: 0 auto;
 
 }
-header ul{
+
+header ul {
     display: flex;
     justify-content: flex-end;
 
 }
+
 header ul li {
     margin-left: 20px;
     font-size: 1.6rem;
 }
-.gallerie{
+
+.gallerie {
     margin: 20px 0;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
 
 }
-.gallerie article{
+
+.gallerie article {
     width: 32%;
     margin-bottom: 20px;
     display: flex;
     flex-direction: column;
 }
-.gallerie article img{
+
+.gallerie article img {
     width: 100%;
 }
-.gallerie article h2{
-    flex:1;
+
+.gallerie article h2 {
+    flex: 1;
 }
 
-.contact h1{
+.contact h1 {
     text-align: center;
     color: rgb(30, 150, 150);
 }
+
 .contact form {
     display: flex;
     flex-direction: column;
 
 }
-.contact form  {
+
+.contact form {
     margin: 30px 0;
     padding: 8px;
 }
@@ -113,27 +127,31 @@ header ul li {
     border: 1px solid rgb(94, 94, 137);
 }
 
-.contact form textarea{
+.contact form textarea {
     height: 80px;
 }
 
-.contact form button{
-    background:rgb(91, 56, 126);
+.contact form button {
+    background: rgb(91, 56, 126);
     color: white;
     cursor: pointer;
 }
+
 .contact {
     width: 700px;
     margin: 0 auto;
 }
-.newsletter{
+
+.newsletter {
     display: flex;
     flex-direction: row;
 }
-.newsletter input{
+
+.newsletter input {
     width: 300px;
 }
-.newsletter{
+
+.newsletter {
     margin-left: 20px;
     padding: 8px 20px;
 }
