@@ -1,15 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact</title>
+    <title>Document</title>
     <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
-    <div class="contact">
+    <div class="container">
         <header>
             <ul>
                 <li><a href="index.html">Accueil</a></li>
@@ -20,26 +18,23 @@
         <main>
             <h1>Nous contacter</h1>
             <form action="">
-                <input type="prenom" id="prénom" name="prénom" placeholder="votre prénom">
-                <br>
-                <input type="nom" id="nom" name="nom" placeholder="votre nom">
-                <br>
-                <input type="email" placeholder="votre@mail.fr">
-                <br>
+                <input type="text" placeholder="prénom NOM">
+                <input type="email" placeholder="votre@email.fr">
+                <select>
+                    <option value="">Choisir</option>
+                    <option value="">Service informatique</option>
+                    <option value="">Service commercial</option>
+                </select>
                 <div>
-                    <select>
-                        <option value="informatique" selected>choisir</option>
-                        <option value="commercial">Service informatique</option>
-                        <option value="Sercice commercial"> service commercial</option>
-                    </select>
-
+                    <label for="commentaire">un commentaire</label><br>
+                    <textarea placeholder="votre message" id="commentaire"></textarea>
                 </div>
-                <textarea name="" id="commentaire" placeholder="votre commentaire"></textarea>
-                <br>
                 <button>Envoyer</button>
             </form>
+        </main>
+        <footer>
+            <a href="mentions-legales.html"  class="mention">mentions légales</a>
+        </footer>
     </div>
-    </main>
 </body>
-
 </html>
