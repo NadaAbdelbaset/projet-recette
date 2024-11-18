@@ -7,22 +7,40 @@ markdown => sous ensemble du html
 le site internet de création de recette de cuisine contient les 
 pages suivantes :
 
--page d'accueil 
--page de contact 
--page recettes
--page mentions légales
+- page d'accueil 
+- page de contact 
+- page recettes
+- page mentions légales
 
 pour rédiger une article dans le site il faudra :
 
-1.s'etre connecté au back office
-1.disposer d'un profil gestionnaire 
-1.rédiger en fancais en anglais  
+1. s'etre connecté au back office
+1. disposer d'un profil gestionnaire 
+1. rédiger en fancais en anglais  
 
 liste des futurez codages :
 
-1.[x] réaliser la page de connection 
-1.[]créer la base de données
-1.[] installer PHP 
+1. [x] réaliser la page de connection 
+1. [] créer la base de données
+1. [] installer PHP 
+
+
+lien hypertext :
+
+
+[lien vers google](https://google.fr)
 
 
 ###titre de niveau 3
+
+![](photo.jpg)
+
+## afficher des commandes 
+
+```
+git add .
+git commit -m " message "
+git push 
+```
+
+code dans un paragraphe `git commit`
