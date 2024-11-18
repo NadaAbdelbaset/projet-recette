@@ -39,7 +39,7 @@ lien hypertext :
 
 ```
 git add .
-git commit -m " message "
+git commit -m "message"
 git push 
 ```
 
@@ -49,3 +49,17 @@ code dans un paragraphe `git commit`
 
 bonjour comment allez vous   
 ça va bien 
+
+## liste compléte des balises html gérées par markdown 
+
+```
+h1 h2 h3 ...h6
+p br 
+ul li ol li 
+img 
+a
+pre code 
+<input type="checkbox">
+hr
+```
+
