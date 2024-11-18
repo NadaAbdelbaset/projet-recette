@@ -1,3 +1,28 @@
 #titre de niveau 1 
+
+markdown => sous ensemble du html
+
 ## titre de niveau 2
+
+le site internet de création de recette de cuisine contient les 
+pages suivantes :
+
+-page d'accueil 
+-page de contact 
+-page recettes
+-page mentions légales
+
+pour rédiger une article dans le site il faudra :
+
+1.s'etre connecté au back office
+1.disposer d'un profil gestionnaire 
+1.rédiger en fancais en anglais  
+
+liste des futurez codages :
+
+1.[x] réaliser la page de connection 
+1.[]créer la base de données
+1.[] installer PHP 
+
+
 ###titre de niveau 3
